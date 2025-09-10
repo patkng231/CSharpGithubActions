@@ -17,5 +17,13 @@ namespace UnitTests
         {
             Assert.True(Calculator.AddTwoNumbers(x, y) == result);
         }
+
+        [Theory]
+        [InlineData(5, 5, 25)]
+        [InlineData(5, 0, 0)]
+        public void Test3(int x, int y, int result)
+        {
+            Assert.True(x * y == result);
+        }
     }
 }
