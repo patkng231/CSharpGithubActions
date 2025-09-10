@@ -10,6 +10,7 @@ namespace CSharpGithubActions
     {
         public Calculator() 
         { 
+
         }
         
         public static int AddTwoNumbers(int x, int y)
