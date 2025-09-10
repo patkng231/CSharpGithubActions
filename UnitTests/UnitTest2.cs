@@ -34,6 +34,8 @@ namespace UnitTests
         public void CheckIncorrectName()
         {
             Assert.False(Person.Name == "Ryan");
+            Assert.False(Person.Name == "Francis");
+            
         }
     }
 }
