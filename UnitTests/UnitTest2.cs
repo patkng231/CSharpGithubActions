@@ -29,5 +29,11 @@ namespace UnitTests
         {
             Assert.True(Person.Name == "Patrick");
         }
+
+        [Fact]
+        public void CheckIncorrectName()
+        {
+            Assert.False(Person.Name == "Ryan");
+        }
     }
 }
